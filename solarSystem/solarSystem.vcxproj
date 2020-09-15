@@ -22,8 +22,9 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{68D14EBE-5578-49A7-8140-E58265316649}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>glTest</RootNamespace>
+    <RootNamespace>solarSystem</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>solarSystem</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -157,19 +158,6 @@
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="camera.hpp" />
-    <ClInclude Include="global.h" />
-    <ClInclude Include="Ring.hpp" />
-    <ClInclude Include="Shader.hh" />
-    <ClInclude Include="Sphere.hpp" />
-    <ClInclude Include="stb_image.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="frag.glsl" />
-    <None Include="phongFrag.glsl" />
-    <None Include="vertex.glsl" />
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="textures\box.jpg" />
     <Image Include="textures\earth.jpg" />
     <Image Include="textures\jupiter.jpg" />
@@ -182,6 +170,20 @@
     <Image Include="textures\sun.jpg" />
     <Image Include="textures\uranus.jpg" />
     <Image Include="textures\venus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Camera.hpp" />
+    <ClInclude Include="include\global.h" />
+    <ClInclude Include="include\Ring.hpp" />
+    <ClInclude Include="include\Shader.hh" />
+    <ClInclude Include="include\Sphere.hpp" />
+    <ClInclude Include="include\stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+    <None Include="shaders\fragment.glsl" />
+    <None Include="shaders\illuminated_fragment.glsl" />
+    <None Include="shaders\vertex.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

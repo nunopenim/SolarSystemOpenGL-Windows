@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{acece574-1635-4c3b-a1ca-3e044d7e1e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{b186adf8-e910-437e-a973-781e7e095d2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\box.jpg">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="textures\earth.jpg">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="textures\jupiter.jpg">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="textures\mars.jpg">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="textures\mercury.jpg">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="textures\moon.jpg">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="textures\neptune.jpg">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="textures\ring.jpg">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="textures\saturn.jpg">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="textures\sun.jpg">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="textures\uranus.jpg">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="textures\venus.jpg">
+      <Filter>Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Camera.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\global.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Ring.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shader.hh">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sphere.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stb_image.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\illuminated_fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\README.md">
+      <Filter>Documentation</Filter>
+    </None>
+  </ItemGroup>
+</Project>
