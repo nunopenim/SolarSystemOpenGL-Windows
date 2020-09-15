@@ -180,6 +180,7 @@
     <ClInclude Include="include\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\LICENSE.md" />
     <None Include="..\README.md" />
     <None Include="shaders\fragment.glsl" />
     <None Include="shaders\illuminated_fragment.glsl" />
