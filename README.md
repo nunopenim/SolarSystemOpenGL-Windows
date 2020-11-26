@@ -13,7 +13,9 @@ C++ and GLSL are the main programming languages of this project.
 
 The following guide is for the Windows Operating System, using Visual Studio 2019 (Community Edition is fine). There are also a [Linux version](https://github.com/nunopenim/SolarSystemOpenGL-Linux), and a [macOS version](https://github.com/nunopenim/SolarSystemOpenGL-macOS) of the project.
 
-First make sure that you have OpenGL installed and ready (GLEW and GLFW are essential. A lightweight version of GLM is already included). Secondly, you clone this repository via Visual Studio 2019. On the top bar make sure that you have selected "x86", if you use a x64 operating system. Then click on the "Local Windows Debugger" button. Some warning will appear, after a while a white window will also appear. Soon the stars can be seen. Use WASD to move and the mouse to look around :) Enjoy.
+Clone this repository via Visual Studio 2019. On the top bar make sure that you have selected "x86", if you use a x64 operating system. Then click on the "Local Windows Debugger" button. Some warning will appear, after a while a white window will also appear. Soon the stars can be seen. Use WASD to move and the mouse to look around :) Enjoy.
+
+Note: It shouldn't needed to change the PATHs of the GLM, GLEW and GLFW libraries included, as they are using Variables. However if it fails, you can point to the right path. To do this, in Visual Studio's Solution Explorer, right click "solarSystem", go to Properties and check the C/C++ General Tab and the Linker Tab.
 
 ## Information
 
