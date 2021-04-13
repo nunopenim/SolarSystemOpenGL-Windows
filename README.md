@@ -9,6 +9,8 @@ Planets and sun are not to real scale or distances. Rendering distance would nee
 
 C++ and GLSL are the main programming languages of this project.
 
+![](img/screencap.png)
+
 ## How to render
 
 The following guide is for the Windows Operating System, using Visual Studio 2019 (Community Edition is fine). There are also a [Linux version](https://github.com/nunopenim/SolarSystemOpenGL-Linux), and a [macOS version](https://github.com/nunopenim/SolarSystemOpenGL-macOS) of the project.
